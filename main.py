@@ -10,6 +10,7 @@ class Main(QtWidgets.QMainWindow):
         var.ui.setupUi(self)
         '''
          Eventos de boton
+         
          '''
         var.ui.btn_salir.clicked.connect(events.Eventos.Salir)
         '''
